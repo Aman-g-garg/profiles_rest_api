@@ -1,0 +1,8 @@
+Cmd to create a django project:
+django-admin startproject profiles_project .
+
+cmd to create an app:
+py manage.py startapp profiles_api
+
+cmd to run server
+py manage.py runserver
