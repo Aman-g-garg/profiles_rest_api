@@ -6,3 +6,9 @@ py manage.py startapp profiles_api
 
 cmd to run server
 py manage.py runserver
+
+cmd to create a sql table for the user model in the profiles_api
+python manage.py makemigrations
+
+cmd to run the migration
+python manage.py migrate
